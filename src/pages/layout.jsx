@@ -1,11 +1,22 @@
 import React from 'react';
+import { useSelector } from 'react-redux';
+import Loading from '../components/Loading';
+import Main from '../components/Main';
 
-const layout = () => {
+
+const Layout = () => {
+
+    const loading = useSelector((state) => state.user.isLoading);
+
     return (
-        <div>
-            
-        </div>
+        <div className="App">
+        {
+          loading 
+            ? (<Loading />) 
+            : (<Main />)
+          }
+      </div>
     );
 };
 
-export default layout;
+export default Layout;

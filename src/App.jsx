@@ -1,23 +1,24 @@
-import { useDispatch, useSelector } from 'react-redux';
+import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import './App.css';
-import { isLoading } from './components/features/UserSlice';
-import Loading from './components/Loading';
+import About from './components/About';
+import Home from './components/Home';
+import Resume from './components/Resume';
+import Layout from './pages/Layout';
+
 
 function App() {
 
-  const dispatch = useDispatch();
-  const loading = useSelector((state) => state.user.isLoading);
-
-  // dispatch(isLoading(true));
-
   return (
-    <div className="App">
-      {
-        loading 
-          ? (<Loading />) 
-          : (<h1>Home</h1>)
-        }
-    </div>
+    <BrowserRouter>
+      <Routes>
+      <Route path='/' element={<Layout />}>
+          <Route index element={<Home />}></Route>
+          <Route path='/about' element={<About />}> </Route>
+          <Route path='/Resume' element={<Resume/>}> </Route>
+        </Route>  
+      </Routes>
+      
+    </BrowserRouter>
   );
 }
 
