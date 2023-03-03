@@ -6,12 +6,12 @@ const Navbar = ({imagePath, logoName}) => {
 
     return (
         <div className={classes.navBar}>
-            <div className={classes.navLogo}>       
+            <div className={classes.navLogo}>
                 <NavLink to={'/'}><img src={imagePath} alt={logoName} /></NavLink>
             </div>
             <div className={classes.navMenu}>
                 <ul>
-                    <li ><NavLink to={'/'}>{"Home"}</NavLink></li>
+                    <li><NavLink to={'/'}>{"Home"}</NavLink></li>
                     <li><NavLink to={'/about'}>{"About"}</NavLink></li>
                     <li><NavLink to={'/resume'}>{"Resume"}</NavLink></li>
                 </ul>

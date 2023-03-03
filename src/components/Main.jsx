@@ -4,13 +4,13 @@ import Navbar from './Navbar';
 
 const Main = () => {
     return (
-        <div>
+        <main>
             <Navbar
                 imagePath={'../../images/logo.png'}
                 logoName={"Jason Dansie"}
                />
                <Outlet />  
-        </div>
+        </main>
     );
 };
 

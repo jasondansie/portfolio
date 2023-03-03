@@ -25,11 +25,6 @@
     
 }
 
-.navBar ul li a:active {
-    color: rgb(127, 126, 124);
-    text-decoration: underline;
-}
-
 .navBar ul li a:hover {
     color: rgb(88, 87, 86);
     text-decoration: underline;

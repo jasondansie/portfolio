@@ -1,0 +1,125 @@
+.blob_effect {
+    position: relative;
+    width: 200px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .blob-effect span:nth-child(1) {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    border: 2px solid #a9ff68;
+    border-radius: 38% 62% 63% 37% / 41% 44% 56% 59%;
+    transition: 0.5s;
+    animation: rotate-blob 5s linear infinite;
+  }
+  
+  .blob_effect:hover span:nth-child(1) {
+    background: #d76bb1;
+    border: none;
+  }
+  
+  .blob_effect span:nth-child(2) {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    border: 2px solid #042933;
+    border-radius: 38% 62% 63% 37% / 41% 44% 56% 59%;
+    transition: 0.5s;
+    animation: rotate-blob 4s linear infinite;
+  }
+  
+  .blob_effect:hover span:nth-child(2) {
+    background: #afa6ac;
+    border: none;
+  }
+  
+  .blob_effect span:nth-child(3) {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    border: 2px solid #3907e0;
+    border-radius: 38% 62% 63% 37% / 41% 44% 56% 59%;
+    transition: 0.5s;
+    animation: rotate-blob2 10s linear infinite;
+  }
+  
+  .blob_effect:hover span:nth-child(3) {
+    background: gray;
+    border: none;
+  }
+  
+  @keyframes rotate-blob {
+    0% {
+      transform: rotate(0deg);
+    }
+  
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+  
+  @keyframes rotate-blob2 {
+    0% {
+      transform: rotate(360deg);
+    }
+  
+    100% {
+      transform: rotate(0deg);
+    }
+  }
+  
+  .div_container {
+    position: relative;
+    padding: 40px 60px;
+    color: #fff;
+    text-align: center;
+    transition: 0.5s;
+    z-index: 10000;
+  }
+  
+  .div_container p {
+    color: #fff;
+  }
+  
+  .div_container a {
+    position: relative;
+    display: inline-block;
+    margin-top: 10px;
+    border: 2px solid #fff;
+    padding: 6px 18px;
+    text-decoration: none;
+    color: #090808;
+    font-weight: 600;
+    border-radius: 73% 27% 44% 56% / 49% 44% 56% 51%;
+  }
+  
+  .div_container a:hover {
+    background: #fff;
+    color: #333;
+  }
+
+  button {
+    display: inline-block;
+    padding: 2.5em 1.5em;
+    border: 0;
+    margin: 0 0.3em 0.3em 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family:'Roboto',sans-serif;
+    font-weight: 400;
+    color:#0e0606;
+    text-align: center;
+    transition:  all 0.15s;
+    background-color: rgba(0,0,0,0.0);
+  }
