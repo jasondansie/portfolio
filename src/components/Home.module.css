@@ -5,6 +5,7 @@
     align-items: center; 
     height: 80vh; 
     background-color: gray;
+    clip-path: polygon(0 0%, 100% 4%, 100% 100%, 0% 100%);
 }
 .middleBlock {
     display: flex;
@@ -14,6 +15,7 @@
     height: 80vh; 
     background-color: rgb(7, 7, 8);
     color: white;
+   
 }
 .infoBlock {
     display: flex;
@@ -21,6 +23,7 @@
     justify-content: center;
     align-items: center; 
     height: 80vh; 
+    
 }
 .aboutBlock {
     display: flex;

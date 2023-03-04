@@ -1,0 +1,14 @@
+footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    height: 50px;
+    color: white;
+    margin-top: auto;
+}
+
+.footerCopyright {
+    margin-left: 20px;
+}

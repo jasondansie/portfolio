@@ -1,0 +1,36 @@
+.about {
+    display: flex;
+    flex-direction: column;
+    margin-top: 12px;
+}
+
+.sideBySide {
+    display: flex;
+    height: 70vh;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.leftSide {
+    background-color: gray;
+}
+
+.rightSide {
+    width: 50%;
+}
+
+.info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+    background-color: darkgray;
+}
+.projects {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+   
+}

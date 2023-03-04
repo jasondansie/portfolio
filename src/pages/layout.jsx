@@ -9,7 +9,7 @@ const Layout = () => {
     const loading = useSelector((state) => state.user.isLoading);
 
     return (
-        <div className="App">
+        <div>
         {
           loading 
             ? (<Loading />) 

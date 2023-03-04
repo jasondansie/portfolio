@@ -1,6 +1,8 @@
 import React from 'react';
 import { Outlet } from 'react-router-dom';
+import Footer from './Footer';
 import Navbar from './Navbar';
+import './Main.module.css'
 
 const Main = () => {
     return (
@@ -9,7 +11,9 @@ const Main = () => {
                 imagePath={'../../images/logo.png'}
                 logoName={"Jason Dansie"}
                />
-               <Outlet />  
+            <Outlet />  
+            <Footer />
+
         </main>
     );
 };

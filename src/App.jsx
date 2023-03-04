@@ -18,8 +18,7 @@ function App() {
           <Route path='/Resume' element={<Resume/>}> </Route>
           <Route path='/contact' element={<Contact/>}> </Route>
         </Route>  
-      </Routes>
-      
+      </Routes>   
     </BrowserRouter>
   );
 }
