@@ -22,15 +22,24 @@
 
 .info {
     display: flex;
+    position: relative;
     justify-content: center;
     align-items: center;
     height: 50vh;
     background-color: darkgray;
 }
+
+.tech {
+    position: absolute;
+    top: 15px;
+    left: 15px;
+    color: black;
+}
+
 .projects {
     display: flex;
     justify-content: center;
     align-items: center;
     height: 50vh;
-   
+
 }

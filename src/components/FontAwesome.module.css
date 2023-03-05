@@ -1,0 +1,14 @@
+.FontAwesom {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.faIcon i {
+    display: flex;
+    justify-content: center;
+}
+
+.faName {
+    margin: 20px;
+}
