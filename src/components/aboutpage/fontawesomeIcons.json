@@ -1,0 +1,58 @@
+[
+    {
+        "icon": "fa-brands fa-react fa-2xl",
+        "name": "React"
+    },
+    {
+        "icon": "fa-solid fa-code",
+        "name": "Typescript"
+    },
+    {
+        "icon": "fa-brands fa-js fa-2xl",
+        "name": "Javascript"
+    },
+    {
+        "icon": "fa-brands fa-node fa-2xl",
+        "name": "Node.js"
+    },
+    {
+        "icon": "fa-solid fa-code",
+        "name": "Mysql"
+    },
+    {
+        "icon": "fa-brands fa-html5 fa-2xl",
+        "name": "HTML"
+    },
+    {
+        "icon": "fa-brands fa-css3 fa-2xl",
+        "name": "CSS"
+    },
+    {
+        "icon": "fa-brands fa-php fa-2xl",
+        "name": "PHP"
+    },
+    {
+        "icon": "fa-brands fa-docker fa-2xl",
+        "name": "Docker"
+    },
+    {
+        "icon": "fa-brands fa-aws fa-2xl",
+        "name": "AWS"
+    },
+    {
+        "icon": "fa-brands fa-square-github fa-2xl",
+        "name": "GitHub"
+    },
+    {
+        "icon": "fa-brands fa-jenkins fa-2xl",
+        "name": "Jenkins"
+    },
+    {
+        "icon": "fa-brands fa-wordpress fa-2xl",
+        "name": "Wordpress"
+    },
+    {
+        "icon": "fa-brands fa-figma fa-2xl",
+        "name": "Figma"
+    }
+]

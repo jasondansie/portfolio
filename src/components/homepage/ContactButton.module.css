@@ -7,6 +7,7 @@
     margin: auto;
     z-index: 1;
 }
+
 button {
     display: inline-block;
     position: relative;
@@ -16,13 +17,12 @@ button {
     box-sizing: border-box;
     text-decoration: none;
     text-transform: uppercase;
-    text-align:justify;
-    font-family:'Roboto',sans-serif;
+    text-align: justify;
+    font-family: 'Roboto', sans-serif;
     font-weight: 200;
-    color:#0e0606;
     text-align: center;
-    transition:  all 0.15s;
-    background-color: rgba(0,0,0,0.0);
+    transition: all 0.15s;
+    background-color: rgba(0, 0, 0, 0.0);
     z-index: 10000;
 }
 
@@ -34,7 +34,7 @@ button {
     border-radius: 100%;
     opacity: 0.5;
     animation: pulse 3s ease-out infinite;
-    
+
 }
 
 .circle:nth-of-type(1) {
@@ -51,7 +51,7 @@ button {
 
 @keyframes pulse {
     100% {
-      transform: scale(1.75);
-      opacity: 0;
+        transform: scale(1.75);
+        opacity: 0;
     }
 }
