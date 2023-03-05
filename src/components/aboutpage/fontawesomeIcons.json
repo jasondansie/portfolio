@@ -4,7 +4,7 @@
         "name": "React"
     },
     {
-        "icon": "fa-solid fa-code",
+        "icon": "fa-solid fa-code fa-2xl",
         "name": "Typescript"
     },
     {
@@ -16,7 +16,7 @@
         "name": "Node.js"
     },
     {
-        "icon": "fa-solid fa-code",
+        "icon": "fa-solid fa-code fa-2xl",
         "name": "Mysql"
     },
     {
