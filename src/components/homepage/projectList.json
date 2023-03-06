@@ -1,17 +1,17 @@
 [
     {
         "title": "Admin console",
-        "imagePath": "",
+        "imagePath": "../../images/extranet.png",
         "info": "This admin console uses Mysql, React, HTML,CSS, Node.js, Express and JWT and is based off an admin panel I made in PHP several years ago",
-        "livelink": "",
+        "livelink": "https://celebrated-piroshki-40791c.netlify.app ",
         "faIcon": "fa-brands fa-github fa-xl",
         "githublink": "https://github.com/jasondansie/react-intranet"
     },
     {
         "title": "TasteIT",
-        "imagePath": "",
+        "imagePath": "../../images/tasetit.png",
         "info": "This admin console uses Mysql, React, HTML,CSS, Node.js, Express and JWT and is based off an admin panel I made in PHP several years ago",
-        "livelink": "",
+        "livelink": "https://idyllic-chebakia-df6468.netlify.app/",
         "faIcon": "fa-brands fa-github fa-xl",
         "githublink": "https://github.com/jasondansie/react-tasteit"
     },
