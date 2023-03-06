@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "./static/css/main.9e6651a4.css",
-    "main.js": "./static/js/main.e395dd8e.js",
-    "index.html": "./index.html",
-    "main.9e6651a4.css.map": "./static/css/main.9e6651a4.css.map",
-    "main.e395dd8e.js.map": "./static/js/main.e395dd8e.js.map"
+    "main.css": "//jasondansie.github.io/portfolio/static/css/main.9e6651a4.css",
+    "main.js": "//jasondansie.github.io/portfolio/static/js/main.e395dd8e.js",
+    "index.html": "//jasondansie.github.io/portfolio/index.html",
+    "main.9e6651a4.css.map": "//jasondansie.github.io/portfolio/static/css/main.9e6651a4.css.map",
+    "main.e395dd8e.js.map": "//jasondansie.github.io/portfolio/static/js/main.e395dd8e.js.map"
   },
   "entrypoints": [
     "static/css/main.9e6651a4.css",
