@@ -1,0 +1,35 @@
+.ProjectCard {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: darkgray;
+    width: 33%;
+    height: 500px;
+}
+.ProjectCard:hover {
+    background-color: gray;
+}
+
+.ProjectCard h3 {
+    font-size: 26px;
+    line-height: 29px;
+    margin: 40px;
+}
+.ProjectCard img {
+    height: 40%;
+    width: 80%;
+}
+
+.ProjectCard p{
+    margin: 20px;
+}
+
+.ProjectCard a {
+    color: black;
+}
+
+.githubInfo {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}

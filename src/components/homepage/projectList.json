@@ -1,0 +1,34 @@
+[
+    {
+        "title": "Admin console",
+        "imagePath": "",
+        "info": "This admin console uses Mysql, React, HTML,CSS, Node.js, Express and JWT and is based off an admin panel I made in PHP several years ago",
+        "livelink": "",
+        "faIcon": "fa-brands fa-github fa-xl",
+        "githublink": "https://github.com/jasondansie/react-intranet"
+    },
+    {
+        "title": "TasteIT",
+        "imagePath": "",
+        "info": "This admin console uses Mysql, React, HTML,CSS, Node.js, Express and JWT and is based off an admin panel I made in PHP several years ago",
+        "livelink": "",
+        "faIcon": "fa-brands fa-github fa-xl",
+        "githublink": "https://github.com/jasondansie/react-tasteit"
+    },
+    {
+        "title": "Speed Game",
+        "imagePath": "../../images/speedgame.png",
+        "info": "This admin console uses Mysql, React, HTML,CSS, Node.js, Express and JWT and is based off an admin panel I made in PHP several years ago",
+        "livelink": "https://public.bc.fi/s2201195/speed_game/",
+        "faIcon": "fa-brands fa-github fa-xl",
+        "githublink": "https://github.com/jasondansie/react-speedgame"
+    },
+    {
+        "title": "Pokedex",
+        "imagePath": "../../images/pokedex.png",
+        "info": "This admin console uses Mysql, React, HTML,CSS, Node.js, Express and JWT and is based off an admin panel I made in PHP several years ago",
+        "livelink": "https://public.bc.fi/s2201195/pokedex/",
+        "faIcon": "fa-brands fa-github fa-xl",
+        "githublink": "https://github.com/jasondansie/react-pokelist-hooks"
+    }
+]

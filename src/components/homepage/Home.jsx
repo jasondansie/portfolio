@@ -3,8 +3,10 @@ import AboutButton from './AboutButton';
 import ContactButton from './ContactButton';
 import Hero from './Hero';
 import classes from './Home.module.css'
+import ProjectCard from './ProjectCard';
 
 const Home = () => {
+  const projects = require('./projectList.json');
   return (
     <div>
       <Hero
@@ -14,7 +16,21 @@ const Home = () => {
         heroTitle={'Fullstack Developer'}
       />
       <div className={classes.greyBlock} >
-        greyBlock
+        {
+          projects.map((project) => {
+            return (
+                <ProjectCard
+                  porjectTitle={project.title}
+                  imagePath={project.imagePath}
+                  ProjectInfo= {project.info}
+                  liveLink={project.livelink}
+                  faIcon={project.faIcon}
+                  githubLink={project.githublink}
+              />
+            )
+          })
+        }
+       
       </div>
       <div className={classes.infoBlock}>
         <div className={classes.aboutBlock}>

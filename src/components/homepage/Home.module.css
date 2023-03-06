@@ -1,9 +1,7 @@
 .greyBlock {
     display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    height: 80vh;
+    flex-direction: row;
+    flex-wrap: wrap;
     background-color: darkgray;
     clip-path: polygon(0 0%, 100% 4%, 100% 100%, 0% 100%);
 }
