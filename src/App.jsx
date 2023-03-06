@@ -4,7 +4,7 @@ import About from './components/aboutpage/About';
 import Contact from './components/Contact';
 import Home from './components/homepage/Home';
 import Resume from './components/Resume';
-import Layout from './pages/Layout';
+import Layout from './pages/layout';
 
 
 function App() {
