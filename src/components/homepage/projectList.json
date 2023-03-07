@@ -2,7 +2,7 @@
     {
         "title": "Admin console",
         "imagePath": "../../images/extranet.png",
-        "info": "This admin console uses Mysql, React, HTML,CSS, Node.js, Express and JWT and is based off an admin panel I made in PHP several years ago",
+        "info": "This admin console uses Mysql, React, HTML,CSS, Node.js, Express and JWT and is based off an admin panel I made in PHP several years ago to log in use. user: jasondansien@gmail.com pass:Passwd123",
         "livelink": "https://celebrated-piroshki-40791c.netlify.app ",
         "faIcon": "fa-brands fa-github fa-xl",
         "githublink": "https://github.com/jasondansie/react-intranet"
@@ -10,7 +10,7 @@
     {
         "title": "TasteIT",
         "imagePath": "../../images/tasetit.png",
-        "info": "This admin console uses Mysql, React, HTML,CSS, Node.js, Express and JWT and is based off an admin panel I made in PHP several years ago",
+        "info": "This is a recipe app where you can review and add recipes. it uses an api to get the country list and flags.",
         "livelink": "https://idyllic-chebakia-df6468.netlify.app/",
         "faIcon": "fa-brands fa-github fa-xl",
         "githublink": "https://github.com/jasondansie/react-tasteit"
@@ -18,7 +18,7 @@
     {
         "title": "Speed Game",
         "imagePath": "../../images/speedgame.png",
-        "info": "This admin console uses Mysql, React, HTML,CSS, Node.js, Express and JWT and is based off an admin panel I made in PHP several years ago",
+        "info": "This is a simple speed game. you just click the cow when it appears, as time goes on it gets faster.",
         "livelink": "https://public.bc.fi/s2201195/speed_game/",
         "faIcon": "fa-brands fa-github fa-xl",
         "githublink": "https://github.com/jasondansie/react-speedgame"
@@ -26,7 +26,7 @@
     {
         "title": "Pokedex",
         "imagePath": "../../images/pokedex.png",
-        "info": "This admin console uses Mysql, React, HTML,CSS, Node.js, Express and JWT and is based off an admin panel I made in PHP several years ago",
+        "info": "This is an app to show the use of an api to build a list of all the pokemon in the pokedex",
         "livelink": "https://public.bc.fi/s2201195/pokedex/",
         "faIcon": "fa-brands fa-github fa-xl",
         "githublink": "https://github.com/jasondansie/react-pokelist-hooks"
