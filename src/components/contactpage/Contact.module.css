@@ -1,0 +1,43 @@
+.Contact {
+    display: flex;
+    justify-content: center;
+    color: gray;
+}
+
+.Contact .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 80%;
+}
+
+.Contact h1 {
+    font-family: Playfair Display;
+    font-size: 100px;
+    line-height: 110px;
+    font-weight: 400;
+    margin: 75px 0 0 ;
+}
+.Contact hr{
+    margin: 25px 0 25px;
+}
+
+.Contact p {
+    margin: 50px 0 25px;
+}
+.Contact textarea {
+    width: 100%;
+}
+.Contact button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: gray;
+    border-radius: 16px 14px 16px 16px;
+    height: 30px;
+    width: 90px;
+    padding: 10px 20px;
+    margin: 25px 0 25px;
+   
+    
+}

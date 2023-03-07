@@ -17,9 +17,10 @@ const Home = () => {
       />
       <div className={classes.greyBlock} >
         {
-          projects.map((project) => {
+          projects.map((project, index) => {
             return (
                 <ProjectCard
+                  index={index}
                   porjectTitle={project.title}
                   imagePath={project.imagePath}
                   ProjectInfo= {project.info}

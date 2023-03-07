@@ -2,9 +2,9 @@ import React from 'react';
 import classes from './ProjectCard.module.css'
 import SocialLink from '../SocialLink'
 
-const ProjectCard = ({porjectTitle, ProjectInfo, imagePath,liveLink, githubLink, faIcon, faName}) => {
+const ProjectCard = ({porjectTitle, ProjectInfo, imagePath,liveLink, githubLink, faIcon, index}) => {
     return (
-        <div className={classes.ProjectCard}>
+        <div key={index} className={classes.ProjectCard}>
             <h3>{porjectTitle}</h3>
             <img src={imagePath} alt={porjectTitle} />
             <p>{ProjectInfo}</p>
