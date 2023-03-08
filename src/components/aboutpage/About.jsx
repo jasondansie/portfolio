@@ -1,5 +1,4 @@
 import React from 'react';
-import SocialLink from '../SocialLink';
 import classes from './About.module.css'
 import CareerItem from './CareerItem';
 import FontAwesome from './FontAwesome';
@@ -98,7 +97,7 @@ const About = () => {
                     companyAndJobDescription={'Goodcall - Build website and tech infostructer'}
                     companyAndDateAndTitle= {'Goodcall 2017 - present Cheif Technical Officer'}
                 />  
-                
+
                 </div>
             </div>
         </div>
