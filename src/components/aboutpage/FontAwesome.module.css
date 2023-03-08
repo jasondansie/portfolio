@@ -1,7 +1,10 @@
 .FontAwesom {
     display: flex;
     flex-direction: column;
+}
 
+.faIcon span{
+    color: black;
 }
 
 .faIcon i {

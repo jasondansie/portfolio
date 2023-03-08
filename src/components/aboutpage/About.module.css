@@ -28,6 +28,20 @@
     width: 50%;
 }
 
+.rightSide p {
+    margin: 25px 0 0;
+    width: 90%;
+}
+
+.profiles {
+    display: flex;
+    flex-direction: row;
+    margin: 25px 0 0;
+}
+.rightSide a {
+    color: black;
+}
+
 .info {
     display: flex;
     flex-wrap: wrap;
@@ -50,5 +64,16 @@
     justify-content: center;
     align-items: center;
     height: 50vh;
+}
 
+.career {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 300px;
+}
+
+.careerInfo {    
+    width: 90%;
+    margin: 25px 0 0;
 }

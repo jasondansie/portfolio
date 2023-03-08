@@ -1,0 +1,30 @@
+.careerLine {
+    display: flex;
+    flex-direction: column;
+    margin: 25px 0 0;
+}
+
+.careerLine:hover{
+    background-color:aliceblue;
+}
+
+.careerLine a{
+    color: black;
+}
+
+.jobInfo {
+    display: flex;
+    flex-direction: row;
+}
+.jobInfo i {
+    margin: 0 10px 0;
+}
+
+.jobText {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-between;
+}
+
+
