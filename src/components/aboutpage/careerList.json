@@ -1,17 +1,52 @@
 [
     {
         "company":"Good Call Oy",
-        "jobs": {
-            "jobTitle":"Director of the board",
-            "PositionTime":{
-                "start":"2017",
-                "end":"current"
-            },
-            "jobDesciption":"Direct board meetings and colaborate on all major purchase, all stratigic decisions and consult the CEO on company direction",
-            "designChallenges":{
-
-            }
-        },
-        "":""
+        "jobTitle":"Co-Owner/Director of the board",
+        "start":"2017",
+        "end":"current",
+        "shortJobDescription":"colaboration of company direction",
+        "jobDesciption":"Direct board meetings and colaborate on all major purchase, all stratigic decisions and consult the CEO on company direction",
+        "challenges":"",
+        "technologies":""
+    },
+    {
+        "company":"Good Call Oy",
+        "jobTitle":"Fullstack Developer",
+        "start":"2017",
+        "end":"current",
+        "shortJobDescription":"Build company infostructer",
+        "jobDesciption":"",
+        "challenges":"build a website from the ground up, domain setup, site hosting, building a robust website with a costum backend similar to Wordpress",
+        "technologies":"HTML, CSS, PHP, MYSQL, Bootstrap, Smarty Templates, Docker, xampp"
+    },
+    {
+        "company":"Revival Ministries International",
+        "jobTitle":"Fullstack Web Developer",
+        "start":"2016",
+        "end":"2018",
+        "shortJobDescription":"Custom backend building",
+        "jobDesciption":"Hired to build a custom backend similr to wordpress to be able to customize the full website using data from Mysql.",
+        "challenges":"",
+        "technologies":"HTML, CSS, PHP, MYSQL, Bootstrap, Smarty Templates, SVN"
+    },
+    {
+        "company":"River Helsinki Church",
+        "jobTitle":"Web & Network Administrator",
+        "start":"2014",
+        "end":"2021",
+        "shortJobDescription":"Wordpress and network administration",
+        "jobDesciption":"Managed multiple Wordpress sites, administrate a Linux, Window, Mac environment. Run cabling, setup servers, router and Voip phone systems ",
+        "challenges":"",
+        "technologies":"Linux, Windows, Mac, Wordpress, fatclient, Wordpress, VOIP, Ldap, Watchguard, Firebox "
+    },
+    {
+        "company":"Nekonet OY",
+        "jobTitle":"Network Administrator",
+        "start":"2014",
+        "end":"2015",
+        "shortJobDescription":"Bitcoin cryptocurrency mining",
+        "jobDesciption":"Linux system administration, cryptocurrency mining, IT consulting",
+        "challenges":"",
+        "technologies":"Linux, cryptocurrency, "
     }
 ]

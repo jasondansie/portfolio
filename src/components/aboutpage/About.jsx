@@ -6,6 +6,8 @@ import FontAwesome from './FontAwesome';
 
 let faIcons = require('./fontawesomeIcons.json');
 
+const careerList = require('./careerList.json');
+
 const About = () => {
     return (
         <div className={classes.about}>
@@ -67,38 +69,19 @@ const About = () => {
                 <div className={classes.careerInfo}>
                 <h2>Career</h2>
                 <hr />
-                <CareerItem
-                    faIcon={"fa-sharp fa-solid fa-file-lines"}
-                    companyAndJobDescription={'Goodcall - Build website and tech infostructer'}
-                    companyAndDateAndTitle= {'Goodcall 2017 - present Cheif Technical Officer'}
-                />  
-                <CareerItem
-                    faIcon={"fa-sharp fa-solid fa-file-lines"}
-                    companyAndJobDescription={'Goodcall - Build website and tech infostructer'}
-                    companyAndDateAndTitle= {'Goodcall 2017 - present Cheif Technical Officer'}
-                />  
-                <CareerItem
-                    faIcon={"fa-sharp fa-solid fa-file-lines"}
-                    companyAndJobDescription={'Goodcall - Build website and tech infostructer'}
-                    companyAndDateAndTitle= {'Goodcall 2017 - present Cheif Technical Officer'}
-                />  
-                <CareerItem
-                    faIcon={"fa-sharp fa-solid fa-file-lines"}
-                    companyAndJobDescription={'Goodcall - Build website and tech infostructer'}
-                    companyAndDateAndTitle= {'Goodcall 2017 - present Cheif Technical Officer'}
-                />   
-                <CareerItem
-                    faIcon={"fa-sharp fa-solid fa-file-lines"}
-                    companyAndJobDescription={'Goodcall - Build website and tech infostructer'}
-                    companyAndDateAndTitle= {'Goodcall 2017 - present Cheif Technical Officer'}
-                />  
-                <CareerItem
-                    faIcon={"fa-sharp fa-solid fa-file-lines"}
-                    companyAndJobDescription={'Goodcall - Build website and tech infostructer'}
-                    companyAndDateAndTitle= {'Goodcall 2017 - present Cheif Technical Officer'}
-                />  
-
+                {careerList.map((career) => {
+                        return(
+                            <CareerItem
+                                faIcon={"fa-sharp fa-solid fa-file-lines"}
+                                companyAndJobDescription={`${career.company} - ${career.shortJobDescription}`}
+                                companyAndDateAndTitle= {`${career.jobTitle} [ ${career.start} - ${career.end} ]`}
+                            /> 
+                        )
+                    })
+                }
+                 <hr />
                 </div>
+              
             </div>
         </div>
     );

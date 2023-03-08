@@ -71,9 +71,14 @@
     flex-direction: column;
     align-items: center;
     min-height: 300px;
+    margin: 0 0 50px;
+}
+.career hr {
+    margin: 25px 0 25px;
 }
 
 .careerInfo {    
     width: 90%;
     margin: 25px 0 0;
 }
+
