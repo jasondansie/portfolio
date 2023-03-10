@@ -1,4 +1,5 @@
 import React from 'react';
+import { NavLink } from 'react-router-dom';
 import classes from './About.module.css'
 import CareerItem from './CareerItem';
 import FontAwesome from './FontAwesome';
@@ -19,8 +20,13 @@ const About = () => {
                     <h1>Jason Dansie</h1>
                     <p>Hi I am a fullstack developer who has been doing
                         web development with PHP, HTML, CSS, MYSQL, Smarty Template and Bootstrap for over 8 years. 
+                        
+                    </p>
+                    <p>
                         I am currently studying at Helsinki Business College in their fullstack developer course.
                         Specifically to update my skills to include Javascript, React, Node.js, Express and Typescript.
+                    </p>
+                    <p>
                         This site is build with these new technologies I have learned.
                         Please check out my profiles below.
                     </p>
@@ -69,9 +75,12 @@ const About = () => {
                 <div className={classes.careerInfo}>
                 <h2>Career</h2>
                 <hr />
-                {careerList.map((career) => {
+                {careerList.filter(career =>
+                        career.profile.includes("Fullstack")).map((career, index) => {
                         return(
                             <CareerItem
+                                index={index}
+                                careerLink={<NavLink to={`/carerrinfo/${index}`}></NavLink>}
                                 faIcon={"fa-sharp fa-solid fa-file-lines"}
                                 companyAndJobDescription={`${career.company} - ${career.shortJobDescription}`}
                                 companyAndDateAndTitle= {`${career.jobTitle} [ ${career.start} - ${career.end} ]`}

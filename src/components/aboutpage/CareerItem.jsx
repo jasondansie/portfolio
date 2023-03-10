@@ -1,10 +1,10 @@
 import React from 'react';
 import classes from './CareerItem.module.css'
 
-const CareerItem = ({careerLink, faIcon, companyAndJobDescription, companyAndDateAndTitle}) => {
+const CareerItem = ({careerLink, faIcon, companyAndJobDescription, companyAndDateAndTitle, index}) => {
     return (
-        <div className={classes.careerLine}>
-            <a href="http://"> 
+        <div key={index} className={classes.careerLine}>
+            <a  href={`/careerinfo/${index}`}  rel="noreferrer" > 
                 <div className={classes.jobInfo}>
                     <div className={classes.faIcon}>
                         <i className={faIcon}></i>

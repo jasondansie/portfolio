@@ -1,0 +1,53 @@
+.careerInfo {
+    display: flex;
+    background-color: #454B4E;
+    justify-content: center;
+    height: 100vh;
+}
+
+.careerInfo .container {
+    display: flex;
+    flex-direction: column;
+    
+    justify-content: center;
+    width: 60%;
+    height: 100%;
+    color: white;
+}
+
+.careerInfo h1{
+    font-weight: 700;
+    font-size:38px;
+    white-space: pre-wrap;
+    word-break: break-word;
+    margin: 2rem 0 2rem;
+}
+
+.careerInfo h2 {
+    line-height: 1.3rem;
+    margin: 1rem 0 1rem; 
+}
+
+.careerInfo span {
+    line-height: 1.5rem;
+    white-space: pre-wrap;
+    word-break: break-word;
+}
+
+.careerInfo .challenges {
+    line-height: 1rem;
+    margin: 3rem 0 0; 
+}
+.careerInfo .strongChallenge {
+    margin: 0 0 1rem;
+}
+
+
+.careerInfo .techAndInfo {
+    line-height: 1rem;
+    margin: 3rem 0 0; 
+}
+
+.techAndInfo p {
+    margin: 0 0 1rem;
+}

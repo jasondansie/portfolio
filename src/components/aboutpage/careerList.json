@@ -1,52 +1,69 @@
 [
     {
+        "profile":"Entreprenuer",
         "company":"Good Call Oy",
         "jobTitle":"Co-Owner/Director of the board",
         "start":"2017",
         "end":"current",
         "shortJobDescription":"colaboration of company direction",
-        "jobDesciption":"Direct board meetings and colaborate on all major purchase, all stratigic decisions and consult the CEO on company direction",
+        "jobDescription":"Direct board meetings and colaborate on all major purchase, all stratigic decisions and consult the CEO on company direction",
         "challenges":"",
         "technologies":""
     },
     {
+        "profile":"Fullstack",
         "company":"Good Call Oy",
         "jobTitle":"Fullstack Developer",
         "start":"2017",
         "end":"current",
         "shortJobDescription":"Build company infostructer",
-        "jobDesciption":"",
+        "jobDescription":"Build a site which has a backend similar to Wordpress but is more robust and eaier to use.",
         "challenges":"build a website from the ground up, domain setup, site hosting, building a robust website with a costum backend similar to Wordpress",
         "technologies":"HTML, CSS, PHP, MYSQL, Bootstrap, Smarty Templates, Docker, xampp"
     },
     {
+        "profile":"Fullstack",
         "company":"Revival Ministries International",
         "jobTitle":"Fullstack Web Developer",
         "start":"2016",
         "end":"2018",
-        "shortJobDescription":"Custom backend building",
-        "jobDesciption":"Hired to build a custom backend similr to wordpress to be able to customize the full website using data from Mysql.",
-        "challenges":"",
+        "shortJobDescription":"Build a custom backend ",
+        "jobDescription":"Hired to build a custom backend similar to wordpress to be able to customize the full website using data from Mysql.",
+        "challenges":"First use of bootstrp, smarty templates and SVN. Learning these technologies at the same time was a true challenge. I did rise above the challenge and created a great backend for the client. ",
         "technologies":"HTML, CSS, PHP, MYSQL, Bootstrap, Smarty Templates, SVN"
     },
     {
+        "profile":"Fullstack",
         "company":"River Helsinki Church",
         "jobTitle":"Web & Network Administrator",
         "start":"2014",
         "end":"2021",
         "shortJobDescription":"Wordpress and network administration",
-        "jobDesciption":"Managed multiple Wordpress sites, administrate a Linux, Window, Mac environment. Run cabling, setup servers, router and Voip phone systems ",
+        "jobDescription":"Managed multiple Wordpress sites, administrate a Linux, Window, Mac environment. Run cabling, setup servers, router and Voip phone systems ",
         "challenges":"",
         "technologies":"Linux, Windows, Mac, Wordpress, fatclient, Wordpress, VOIP, Ldap, Watchguard, Firebox "
     },
     {
+        "profile":"Fullstack",
         "company":"Nekonet OY",
         "jobTitle":"Network Administrator",
         "start":"2014",
         "end":"2015",
         "shortJobDescription":"Bitcoin cryptocurrency mining",
-        "jobDesciption":"Linux system administration, cryptocurrency mining, IT consulting",
+        "jobDescription":"Linux system administration, cryptocurrency mining, IT consulting",
         "challenges":"",
-        "technologies":"Linux, cryptocurrency, "
+        "technologies":"Linux, cryptocurrency, Bash, Postgresql "
+    },
+    {
+        "profile":"Game Programing",
+        "company":"Next Games",
+        "jobTitle":"Game programmer trainee",
+        "start":"2021",
+        "end":"2022",
+        "shortJobDescription":"Game programming in Unity and C#.",
+        "jobDescription":"Game programming, Unity, feature development, unit testing and bug fixing. Shipped title: Stranger Things Puzzle Tails (iOS, Android) 2021/2022",
+        "challenges":"Jumping striaght into a well developed code base and a popular game. Working in a large team. ",
+        "technologies":"Unity, C#, Git, Unity profiler, AWS ",
+        "docFile":"../../docs/NextGames.pdf"
     }
 ]
