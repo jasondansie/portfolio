@@ -22,7 +22,7 @@ const CareerInfo = () => {
                     }
                 </div>
                 <div className={classes.techAndInfo}>
-                    {!careeritem.technologies ? "" : <p>Primary Tech and Tools </p>} 
+                    {!careeritem.technologies ? "" : "Primary Tech and Tools"} 
                 
                     <p> 
                     {careeritem.technologies}

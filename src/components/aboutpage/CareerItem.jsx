@@ -5,11 +5,11 @@ const CareerItem = ({careerLink, faIcon, companyAndJobDescription, companyAndDat
     return (
         <div key={index} className={classes.careerLine}>
             <a key={index + 0.1}  href={`/careerinfo/${index}`}  rel="noreferrer" > 
-                <div className={classes.jobInfo}>
-                    <div className={classes.faIcon}>
+                <div key={index + 0.7} className={classes.jobInfo}>
+                    <div key={index + 0.5} className={classes.faIcon}>
                         <i key={index + .2} className={faIcon}></i>
                     </div>
-                    <div className={classes.jobText}>
+                    <div key={index + 0.6} className={classes.jobText}>
                         <div key={index + .3}>
                             {companyAndJobDescription}
                         </div>

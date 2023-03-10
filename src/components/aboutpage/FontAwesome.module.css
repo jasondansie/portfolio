@@ -3,13 +3,10 @@
     flex-direction: column;
 }
 
-.faIcon span{
-    color: black;
-}
-
 .faIcon i {
     display: flex;
     justify-content: center;
+    color: black;
 }
 
 .faName {

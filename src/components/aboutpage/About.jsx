@@ -30,8 +30,8 @@ const About = () => {
                         This site is build with these new technologies I have learned.
                         Please check out my profiles below.
                     </p>
-                    <div className={classes.profiles}>                      
-                         <a 
+                    <div key={0.0000} className={classes.profiles}>                      
+                         <a key={0.0001}
                          target="_blank" 
                          rel="noreferrer" 
                          href={"https://github.com/jasondansie"}>
@@ -41,7 +41,7 @@ const About = () => {
                                 fa_Name={"Github"}
                             /> 
                         </a>
-                         <a 
+                         <a key={0.0002} 
                          target="_blank" 
                          rel="noreferrer" 
                          href={"https://www.linkedin.com/in/jason-dansie-%F0%9F%91%BE-05729436/"}>
