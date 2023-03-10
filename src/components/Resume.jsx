@@ -70,9 +70,7 @@ const Resume = () => {
                     <a href="https://github.com/jasondansie" target="_blank" rel="noreferrer">
                         <i class="fa fa-github fa-xl"></i>
                         <span>@jasondansie</span>
-                    </a>
-
-                
+                    </a>            
                 </div>
             </div>
              
@@ -100,7 +98,30 @@ const Resume = () => {
                     })
                 }
             </div>
-            
+            <div className={classes.references}>
+                <hr />
+                <h2>Reference</h2>
+                <div className={classes.referenceList}>
+                    <div className={classes.singleReference}>
+                        <h3>Margit Tennosaar, Teacher</h3>
+                        <h3>Helsinki Business College</h3>
+                        <h3>margit.tennosaar@bc.fi</h3>
+                    </div>
+                    <div className={classes.singleReference}>
+                        <h3>Santosh Kalwar, Teacher</h3>
+                        <h3>Helsinki Business College</h3>
+                        <h3>santosh.kalwar@bc.fi</h3>
+                        <h3>GSM: +358 447 756 412 </h3>
+                    </div>
+                    <div className={classes.singleReference}>
+                        <h3>Janne Huhtanen, Project Manager</h3>
+                        <h3>NextGames</h3>
+                        <h3>Janne.huhtanen@nextgames.com</h3>
+                        <h3>GSM: +358 040 575 9792 </h3>
+                    </div>
+                </div>
+                
+            </div>
         </div>
     );
 };

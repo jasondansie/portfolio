@@ -65,5 +65,16 @@
         "challenges":"Jumping striaght into a well developed code base and a popular game. Working in a large team. ",
         "technologies":"Unity, C#, Git, Unity profiler, AWS ",
         "docFile":"../../docs/NextGames.pdf"
+    },
+    {
+        "profile":"Game Programer",
+        "company":"Metropolia ",
+        "jobTitle":"Game programmer",
+        "start":"05/2013",
+        "end":"08/2013",
+        "shortJobDescription":"Game programming in Unity and C#.",
+        "jobDescription":"Hired for 4 months to write code for a childrens game. Which went on to be used for a group of students who were working on their thesis. ",
+        "challenges":"Creating a childrens game from start to finish, working in a hybrid office setup, combining code from 3 other progamers into one project.",
+        "technologies":"Unity, C#"
     }
 ]
