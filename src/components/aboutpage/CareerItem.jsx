@@ -4,16 +4,16 @@ import classes from './CareerItem.module.css'
 const CareerItem = ({careerLink, faIcon, companyAndJobDescription, companyAndDateAndTitle, index}) => {
     return (
         <div key={index} className={classes.careerLine}>
-            <a  href={`/careerinfo/${index}`}  rel="noreferrer" > 
+            <a key={index + 0.1}  href={`/careerinfo/${index}`}  rel="noreferrer" > 
                 <div className={classes.jobInfo}>
                     <div className={classes.faIcon}>
-                        <i className={faIcon}></i>
+                        <i key={index + .2} className={faIcon}></i>
                     </div>
                     <div className={classes.jobText}>
-                        <div>
+                        <div key={index + .3}>
                             {companyAndJobDescription}
                         </div>
-                        <div>
+                        <div key={index + .4}>
                             {companyAndDateAndTitle}
                         </div>    
                     </div>                      

@@ -5,7 +5,7 @@ import CareerItem from './CareerItem';
 import FontAwesome from './FontAwesome';
 
 
-let faIcons = require('./fontawesomeIcons.json');
+const faIcons = require('./fontawesomeIcons.json');
 
 const careerList = require('./careerList.json');
 
