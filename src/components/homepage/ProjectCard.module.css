@@ -16,8 +16,10 @@
     margin: 40px;
 }
 .ProjectCard img {
-    height: 40%;
-    width: 80%;
+    height: 200px;
+    width: 400px;
+    object-fit: fill;
+    
 }
 
 .ProjectCard p{

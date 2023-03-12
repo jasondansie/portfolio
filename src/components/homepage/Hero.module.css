@@ -6,9 +6,12 @@
     height: 70vh; 
 }
 
-.heroBox img {  
+.heroBox img { 
+    border-radius: 50%; 
+    display: absolute;
+    margin: 0 auto;
     height: 300px;
     width: 300px;
-    border-radius: 50%;
-    margin: 0 0 25px;
+    object-fit: cover;
+    object-position: 25% 25%;
 }
