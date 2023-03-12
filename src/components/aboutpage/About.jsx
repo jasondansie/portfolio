@@ -19,8 +19,8 @@ const About = () => {
                 <div className={classes.rightSide}>
                     <h1>Jason Dansie</h1>
                     <p>Hi I am a fullstack developer who has been doing
-                        web development with PHP, HTML, CSS, MYSQL, Smarty Template and Bootstrap for over 8 years. 
-                        
+                        web development with PHP, HTML, CSS, MYSQL, Smarty Template and Bootstrap for over 8 years.
+
                     </p>
                     <p>
                         I am currently studying at Helsinki Business College in their fullstack developer course.
@@ -30,26 +30,26 @@ const About = () => {
                         This site is build with these new technologies I have learned.
                         Please check out my profiles below.
                     </p>
-                    <div key={0.0000} className={classes.profiles}>                      
-                         <a key={0.0001}
-                         target="_blank" 
-                         rel="noreferrer" 
-                         href={"https://github.com/jasondansie"}>
+                    <div key={0.0000} className={classes.profiles}>
+                        <a key={0.0001}
+                            target="_blank"
+                            rel="noreferrer"
+                            href={"https://github.com/jasondansie"}>
                             <FontAwesome
                                 index={100}
                                 fa_Icon={"fa-brands fa-square-github fa-2xl"}
                                 fa_Name={"Github"}
-                            /> 
+                            />
                         </a>
-                         <a key={0.0002} 
-                         target="_blank" 
-                         rel="noreferrer" 
-                         href={"https://www.linkedin.com/in/jason-dansie-%F0%9F%91%BE-05729436/"}>
+                        <a key={0.0002}
+                            target="_blank"
+                            rel="noreferrer"
+                            href={"https://www.linkedin.com/in/jason-dansie-%F0%9F%91%BE-05729436/"}>
                             <FontAwesome
                                 index={101}
                                 fa_Icon={"fa-brands fa-linkedin fa-2xl"}
                                 fa_Name={"LinkedIn"}
-                            /> 
+                            />
                         </a>
                     </div>
                 </div>
@@ -73,24 +73,25 @@ const About = () => {
             </div>
             <div className={classes.career}>
                 <div className={classes.careerInfo}>
-                <h2>Career</h2>
-                <hr />
-                {careerList.filter(career =>
+                    <h2>Career</h2>
+                    <hr />
+                    {careerList.filter(career =>
                         career.profile.includes("Fullstack")).map((career, index) => {
-                        return(
-                            <CareerItem
-                                index={index}
-                                careerLink={<NavLink to={`/carerrinfo/${index}`}></NavLink>}
-                                faIcon={"fa-sharp fa-solid fa-file-lines"}
-                                companyAndJobDescription={`${career.company} - ${career.shortJobDescription}`}
-                                companyAndDateAndTitle= {`${career.jobTitle} [ ${career.start} - ${career.end} ]`}
-                            /> 
-                        )
-                    })
-                }
-                 <hr />
+                            return (
+                                <CareerItem
+                                    id={career.id}
+                                    index={index}
+                                    careerLink={<NavLink to={`/carerrinfo/${index}`}></NavLink>}
+                                    faIcon={"fa-sharp fa-solid fa-file-lines"}
+                                    companyAndJobDescription={`${career.company} - ${career.shortJobDescription}`}
+                                    companyAndDateAndTitle={`${career.jobTitle} [ ${career.start} - ${career.end} ]`}
+                                />
+                            )
+                        })
+                    }
+                    <hr />
                 </div>
-              
+
             </div>
         </div>
     );
