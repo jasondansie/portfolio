@@ -1,10 +1,51 @@
 .greyBlock {
     display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
+    flex-direction: column;
     background-color: darkgray;
     clip-path: polygon(0 0%, 100% 4%, 100% 100%, 0% 100%);
+    min-height: 500px;
 }
+.greyBlock h2 {
+    margin: 25px 0 0 25px;
+}
+
+.greyBlock .aboutMe {
+    margin: 50px 0 0;
+}
+
+
+.whiteBlock {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    min-height: 300px;
+}
+
+.aboutMe a {
+    color: black;
+}
+
+.aboutMe {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.aboutMe p {
+    margin: 25px 0 0;
+    width: 90%;
+    font-size: 20px;
+}
+
+
+.profiles {
+    display: flex;
+    flex-direction: row;
+    margin: 75px 0 0;
+}
+
 
 .infoBlock {
     display: flex;
@@ -15,6 +56,28 @@
 
 }
 
+.info {
+    display: flex;
+    flex-direction: column;
+}
+
+.info, .greyBlock h2 {
+    margin: 50px 0 0 25px;
+}
+
+.tech {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    color: black;
+    margin: 100px 0 0;
+}
+
+.projects {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
 .aboutBlock {
     display: flex;
     flex-direction: row;
@@ -32,5 +95,23 @@
     align-items: center;
     background-color: gray;
     height: 100%;
+    width: 100%;
+}
+
+.career {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 300px;
+    margin: 0 0 50px;
+    width: 90%;
+    
+}
+.career hr {
+    margin: 25px 0 25px;
+}
+
+.careerInfo {    
+    margin: 25px 0 0;
     width: 100%;
 }

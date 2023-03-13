@@ -9,7 +9,7 @@
     padding: 10px 5px 10px 0;
 }
 
-.careerLine:hover {
+.careerLine button:hover {
     background-color: aliceblue;
 }
 
