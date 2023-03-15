@@ -1,8 +1,8 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
-import classes from './ContactButton.module.css'
+import classes from './PulseButton.module.css'
 
-const ContactButton = () => {
+const PulseButton = ({toLink, buttonNam}) => {
     return (
         <div>
             <div className={classes.pulse_effect}>
@@ -10,10 +10,10 @@ const ContactButton = () => {
                 <div className={classes.circle}></div>
                 <div className={classes.circle}></div>
                 <div className={classes.circle}></div>
-                <button><NavLink to={'/contact'}>{"Contact me"}</NavLink></button>
+                <button><NavLink to={toLink}>{buttonNam}</NavLink></button>
             </div>           
         </div>
     );
 };
 
-export default ContactButton;
+export default PulseButton;

@@ -1,18 +1,19 @@
 .blob_effect {
     position: relative;
-    width: 75px;
-    height: 75px;
+    width: 90px;
+    height: 90px;
     display: flex;
     justify-content: center;
     align-items: center;
+    margin: -30px 0 0;
   }
   
   .blob-effect span:nth-child(1) {
     position: absolute;
     top: 0px;
     left: 0px;
-    width: 100%;
-    height: 100%;
+    width: 125%;
+    height: 125%;
     border: 2px solid #a9ff68;
     border-radius: 38% 62% 63% 37% / 41% 44% 56% 59%;
     transition: 0.5s;
@@ -28,8 +29,8 @@
     position: absolute;
     top: 0px;
     left: 0px;
-    width: 100%;
-    height: 100%;
+    width: 125%;
+    height: 125%;
     border: 2px solid #042933;
     border-radius: 38% 62% 63% 37% / 41% 44% 56% 59%;
     transition: 0.5s;
@@ -45,8 +46,8 @@
     position: absolute;
     top: 0px;
     left: 0px;
-    width: 100%;
-    height: 100%;
+    width: 125%;
+    height: 125%;
     border: 2px solid #3907e0;
     border-radius: 38% 62% 63% 37% / 41% 44% 56% 59%;
     transition: 0.5s;
@@ -80,11 +81,12 @@
   
   .div_container {
     position: relative;
-    padding: 40px 60px;
+    padding: 5px 10px;
     color: #fff;
     text-align: center;
     transition: 0.5s;
     z-index: 10000;
+    
   }
   
   .div_container p {
@@ -94,9 +96,9 @@
   .div_container a {
     position: relative;
     display: inline-block;
-    margin-top: 10px;
+    margin: 20px 0 0 20px;
     border: 2px solid #fff;
-    padding: 6px 18px;
+    padding: 10px 10px;
     text-decoration: none;
     color: #090808;
     font-weight: 600;

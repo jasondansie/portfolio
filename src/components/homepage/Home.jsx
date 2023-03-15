@@ -1,11 +1,11 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
-import AboutButton from './AboutButton';
 import Hero from './Hero';
 import classes from './Home.module.css'
 import ProjectCard from './ProjectCard';
 import FontAwesome from '../aboutpage/FontAwesome';
 import CareerItem from '../aboutpage/CareerItem';
+import CirclingButton from './CirclingButton';
 
 const Home = () => {
   const projects = require('./projectList.json');
@@ -57,7 +57,10 @@ const Home = () => {
                                 fa_Name={"LinkedIn"}
                             />
                         </a>
-                        <AboutButton />
+                        <CirclingButton
+                            toLink={'/contact'}
+                            buttonName={'Contact me'}
+                        />
                     </div>
 
                 </div>
@@ -69,11 +72,14 @@ const Home = () => {
             {
                 faIcons.map((fa, i) => {
                     return (
-                        <FontAwesome
+                        <div key={i}>
+                            <FontAwesome
                             index={i}
                             fa_Icon={fa.icon}
                             fa_Name={fa.name}
                         />
+                        </div>
+                        
                     )
                 })
             }      

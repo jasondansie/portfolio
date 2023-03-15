@@ -1,3 +1,4 @@
+
 .greyBlock {
     display: flex;
     flex-direction: column;
@@ -43,6 +44,9 @@
 .profiles {
     display: flex;
     flex-direction: row;
+    justify-content: space-around;
+    height: 100px;
+    width: 50%;
     margin: 75px 0 0;
 }
 
