@@ -11,9 +11,9 @@ const SocialLink = ({ socialLink, faIcon, linkName }) => {
 };
 
 SocialLink.propTypes = {
-    socialLink: PropTypes.string.isRequired,
-    faIcon: PropTypes.string.isRequired,
-    linkName: PropTypes.string.isRequired,
+    socialLink: PropTypes.string,
+    faIcon: PropTypes.string,
+    linkName: PropTypes.string,
 }
 
 export default SocialLink;

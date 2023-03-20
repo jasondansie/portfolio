@@ -17,9 +17,7 @@
 
 .whiteBlock {
     display: flex;
-    flex-direction: row;
     justify-content: center;
-    flex-wrap: wrap;
     flex-flow: wrap;
     min-height: 300px;
 }
@@ -44,7 +42,6 @@
 
 .profiles {
     display: flex;
-    flex-direction: row;
     flex-flow: wrap;
     justify-content: space-around;
     height: 100px;

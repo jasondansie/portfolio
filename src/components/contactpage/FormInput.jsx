@@ -13,8 +13,9 @@ const FormInput = ({ inputLabel, inputName, inputType }) => {
 };
 
 FormInput.propTypes = {
-    fa_Icon: PropTypes.string.isRequired,
-    fa_Name: PropTypes.string.isRequired,
+    inputLabel: PropTypes.string.isRequired,
+    inputName: PropTypes.string.isRequired,
+    inputType: PropTypes.string.isRequired,
 }
 
 export default FormInput;
