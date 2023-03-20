@@ -69,11 +69,11 @@ const Home = () => {
                     <h2>Technologies</h2>
                     <div className={classes.tech}>
                         {
-                            faIcons.map((fa, i) => {
+                            faIcons.map((fa) => {
                                 return (
-                                    <div key={i}>
+                                    <div key={fa.name}>
                                         <FontAwesome
-                                            index={i}
+                                            index={fa.name}
                                             fa_Icon={fa.icon}
                                             fa_Name={fa.name}
                                         />
