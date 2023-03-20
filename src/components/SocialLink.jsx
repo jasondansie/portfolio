@@ -1,4 +1,6 @@
 import React from 'react';
+import PropTypes from 'prop-types';
+
 
 const SocialLink = ({ socialLink, faIcon, linkName }) => {
     return (
@@ -7,5 +9,11 @@ const SocialLink = ({ socialLink, faIcon, linkName }) => {
         </div>
     );
 };
+
+SocialLink.propTypes = {
+    socialLink: PropTypes.string.isRequired,
+    faIcon: PropTypes.string.isRequired,
+    linkName: PropTypes.string.isRequired,
+}
 
 export default SocialLink;

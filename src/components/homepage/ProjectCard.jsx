@@ -1,6 +1,8 @@
 import React from 'react';
 import classes from './ProjectCard.module.css'
-import SocialLink from '../SocialLink'
+import SocialLink from '../SocialLink';
+import PropTypes from 'prop-types';
+
 
 const ProjectCard = ({ porjectTitle, ProjectInfo, imagePath, liveLink, githubLink, faIcon }) => {
     return (
@@ -19,5 +21,15 @@ const ProjectCard = ({ porjectTitle, ProjectInfo, imagePath, liveLink, githubLin
         </div>
     );
 };
+
+ProjectCard.propTypes = {
+    porjectTitle: PropTypes.string.isRequired,
+    ProjectInfo: PropTypes.string.isRequired,
+    imagePath: PropTypes.string.isRequired,
+    liveLink: PropTypes.string.isRequired,
+    githubLink: PropTypes.string.isRequired,
+    faIcon: PropTypes.string.isRequired,
+
+}
 
 export default ProjectCard;
