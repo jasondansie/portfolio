@@ -27,12 +27,17 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
+    justify-content: space-between;
     width: 40%;
 }
 
-.resume .rightSide span{
+.resume .rightSide span {
     margin: 0 1rem 0;
+}
+
+.resume .rightSide .sociallink {
+
+    margin: 1rem 0 0;
 }
 
 
@@ -58,10 +63,12 @@
 
 .radioButtons label {
     margin: 0 10px 0;
-    
+
 }
 
-.radioButtons a, span, i {
+.radioButtons a,
+span,
+i {
     color: rgb(149, 147, 147)
 }
 
@@ -72,15 +79,15 @@
     margin: 0 0 2rem;
 }
 
-.references  h2{
+.references h2 {
     margin: 1rem 0 2rem;
 }
 
-.references  h3{
+.references h3 {
     line-height: 1rem;
 }
 
-.referenceList{
+.referenceList {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;

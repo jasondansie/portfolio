@@ -1,14 +1,14 @@
 import React from 'react';
 import classes from './FontAwesome.module.css'
 
-const FontAwesome = ({ fa_Icon, fa_Name, index }) => {
+const FontAwesome = ({ fa_Icon, fa_Name }) => {
     return (
-        <div key={index + .01} className={classes.FontAwesome}>
+        <div className={classes.FontAwesome}>
             <span className={classes.faIcon}>
-                <i key={index + .02} className={fa_Icon}></i>
+                <i className={fa_Icon}></i>
             </span>
-            <div key={index + .03} className={classes.faName}>
-                <h4 key={index + .04}>{fa_Name}</h4>
+            <div className={classes.faName}>
+                <h4>{fa_Name}</h4>
             </div>
         </div>
     );

@@ -2,10 +2,11 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-   
+
     width: 33%;
     height: 500px;
 }
+
 .ProjectCard:hover {
     background-color: gray;
 }
@@ -15,14 +16,15 @@
     line-height: 29px;
     margin: 40px;
 }
+
 .ProjectCard img {
-    height: 200px;
-    width: 400px;
+    height: 100%;
+    width: 80%;
     object-fit: fill;
-    
+
 }
 
-.ProjectCard p{
+.ProjectCard p {
     margin: 20px;
 }
 

@@ -7,7 +7,6 @@ const CareerInfo = () => {
     const careerList = require('./aboutpage/careerList.json');
     const careeritem = careerList.find(item => item.id === params.id);
 
-    console.log("params: ", params.id);
     return (
         <div key={params.id} className={classes.careerInfo}>
             <div className={classes.container}>

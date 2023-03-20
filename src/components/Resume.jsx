@@ -1,13 +1,14 @@
 import React, { useState } from 'react';
 import classes from './Resume.module.css'
 import ResumeJob from './ResumeJob';
+import SocialLink from './SocialLink';
 
 const Resume = () => {
-    const [ selection, setSelection] = useState("Fullstack");
+    const [selection, setSelection] = useState("Fullstack");
     const careerList = require('../components/aboutpage/careerList.json');
-    
+
     let filteredCareerList = [];
-    
+
     const radioButtonHandler = (e) => {
         setSelection(e.target.value)
     }
@@ -15,37 +16,37 @@ const Resume = () => {
     if (selection === "all") {
         filteredCareerList = careerList;
     }
-    else{ 
+    else {
         filteredCareerList = careerList.filter(career =>
             career.profile.includes(selection));
     }
-    
+
     return (
         <div className={classes.resume}>
-             <div className={classes.radioButtons}>
+            <div className={classes.radioButtons}>
                 <div>
-                    <input key={"i1"} type="radio" name="contact" value="Fullstack" onChange={(e) => radioButtonHandler(e)} />
-                    <label key={"l1"} htmlFor="fullstack">FullStack Developer</label>
+                    <input type="radio" name="contact" id='fullstack' value="Fullstack" onChange={(e) => radioButtonHandler(e)} />
+                    <label htmlFor="fullstack">FullStack Developer</label>
                 </div>
                 <div>
-                    <input key={"i2"} type="radio" name="contact" value="Game Programer"  onChange={(e) => radioButtonHandler(e)}/>
-                    <label key={"l2"} htmlFor="Gamedeveloper">Game Developer</label>
+                    <input type="radio" name="contact" id='Gamedeveloper' value="Game Programer" onChange={(e) => radioButtonHandler(e)} />
+                    <label htmlFor="Gamedeveloper">Game Developer</label>
                 </div>
                 <div>
-                    <input key={"i3"} type="radio" name="contact" value="Entreprenuer" onChange={(e) => radioButtonHandler(e)} />
-                    <label key={"l3"} htmlFor="entreprenuer">Entreprenuer</label>
+                    <input type="radio" name="contact" id='entreprenuer' value="Entreprenuer" onChange={(e) => radioButtonHandler(e)} />
+                    <label htmlFor="entreprenuer">Entreprenuer</label>
                 </div>
                 <div>
-                    <input key={"i4"} type="radio" name="contact" value="all" onChange={(e) => radioButtonHandler(e)}/>
-                    <label key={"l4"} htmlFor="all">All</label>
-                </div>   
+                    <input type="radio" name="contact" id='all' value="all" onChange={(e) => radioButtonHandler(e)} />
+                    <label htmlFor="all">All</label>
+                </div>
             </div>
             <div className={classes.resumeInfo}>
                 <div className={classes.leftSide}>
-                    <h1>Resume</h1> 
+                    <h1>Resume</h1>
                     <h2>Jason Dansie</h2>
                     <p>Hi I am a fullstack developer who has been doing
-                            web development with PHP, HTML, CSS, MYSQL, Smarty Template and Bootstrap for over 8 years.                   
+                        web development with PHP, HTML, CSS, MYSQL, Smarty Template and Bootstrap for over 8 years.
                     </p>
                     <p>
                         I am currently studying at Helsinki Business College in their fullstack developer course.
@@ -53,49 +54,51 @@ const Resume = () => {
                     </p>
                     <p>
                         This site is build with these new technologies I have learned.
-                        At the top you can choose which job profile you would like to see 
-                        my experience for. 
+                        At the top you can choose which job profile you would like to see
+                        my experience for.
                     </p>
                 </div>
                 <div className={classes.rightSide}>
-                    
-                    <a href="/contact">
-                       
-                       <span>Contact me</span> 
-                    </a>
-                    <a href="https://www.linkedin.com/in/jason-dansie-%F0%9F%91%BE-05729436/" target="_blank" rel="noreferrer">
-                        <i class="fa fa-linkedin fa-xl"></i>
-                        <span>@jasondansie</span>
-                    </a>
-                    <a href="https://github.com/jasondansie" target="_blank" rel="noreferrer">
-                        <i class="fa fa-github fa-xl"></i>
-                        <span>@jasondansie</span>
-                    </a>            
+
+                    <a href="/contact"><span>Contact me</span></a>
+
+                    <SocialLink
+                        socialLink="https://www.linkedin.com/in/jason-dansie-%F0%9F%91%BE-05729436/"
+                        faIcon="fa fa-linkedin fa-xl"
+                        linkName="@jasondansie"
+                    />
+                    <div className={classes.sociallink}>
+                        <SocialLink
+                            socialLink="https://github.com/jasondansie"
+                            faIcon="fa fa-github fa-xl"
+                            linkName="@jasondansie"
+                        />
+                    </div>
+
                 </div>
             </div>
-             
+
 
             <div className={classes.experience}>
-                
+
                 <h2>Experience</h2>
                 {filteredCareerList.map((career, index) => {
-                        return(
-                            <div>
-                                <hr />
-                                <ResumeJob
-                                    index={index}
-                                    company={`${career.company}`}
-                                    start={`${career.start}`}
-                                    end={`${career.end}`}
-                                    jobTitle={`${career.jobTitle}`}
-                                    shortJobDescription={`${career.shortJobDescription}`}
-                                    jobDescription= {`${career.jobDescription}`}
-                                    challenges={`${career.challenges}`}
-                                    technologies={`${career.technologies}`}
-                                />                                  
-                            </div>                       
-                        )
-                    })
+                    return (
+                        <div key={career.id}>
+                            <hr />
+                            <ResumeJob
+                                company={`${career.company}`}
+                                start={`${career.start}`}
+                                end={`${career.end}`}
+                                jobTitle={`${career.jobTitle}`}
+                                shortJobDescription={`${career.shortJobDescription}`}
+                                jobDescription={`${career.jobDescription}`}
+                                challenges={`${career.challenges}`}
+                                technologies={`${career.technologies}`}
+                            />
+                        </div>
+                    )
+                })
                 }
             </div>
             <div className={classes.references}>
@@ -120,7 +123,7 @@ const Resume = () => {
                         <h3>GSM: +358 040 575 9792 </h3>
                     </div>
                 </div>
-                
+
             </div>
         </div>
     );
