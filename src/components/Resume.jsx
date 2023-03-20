@@ -82,7 +82,7 @@ const Resume = () => {
             <div className={classes.experience}>
 
                 <h2>Experience</h2>
-                {filteredCareerList.map((career, index) => {
+                {filteredCareerList.map((career) => {
                     return (
                         <div key={career.id}>
                             <hr />

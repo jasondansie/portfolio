@@ -1,3 +1,4 @@
+import React from 'react';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import CareerInfo from './components/CareerInfo';
 import Contact from './components/contactpage/Contact';

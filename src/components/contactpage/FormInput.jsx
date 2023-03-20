@@ -1,7 +1,9 @@
 import React from 'react';
-import classes from './FormInput.module.css'
+import classes from './FormInput.module.css';
+import PropTypes from 'prop-types';
 
-const FormInput = ({inputLabel, inputName, inputType}) => {
+
+const FormInput = ({ inputLabel, inputName, inputType }) => {
     return (
         <div className={classes.formInput}>
             <p>{inputLabel}</p>
@@ -9,5 +11,10 @@ const FormInput = ({inputLabel, inputName, inputType}) => {
         </div>
     );
 };
+
+FormInput.propTypes = {
+    fa_Icon: PropTypes.string.isRequired,
+    fa_Name: PropTypes.string.isRequired,
+}
 
 export default FormInput;

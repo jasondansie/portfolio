@@ -1,6 +1,8 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
 import classes from './CareerItem.module.css'
+import PropTypes from 'prop-types';
+
 
 const CareerItem = ({ id, faIcon, companyAndJobDescription, companyAndDateAndTitle }) => {
     return (
@@ -27,5 +29,13 @@ const CareerItem = ({ id, faIcon, companyAndJobDescription, companyAndDateAndTit
         </div>
     );
 };
+
+CareerItem.propTypes = {
+    id: PropTypes.string.isRequired,
+    faIcon: PropTypes.string.isRequired,
+    companyAndJobDescription: PropTypes.string.isRequired,
+    companyAndDateAndTitle: PropTypes.string.isRequired,
+}
+
 
 export default CareerItem;

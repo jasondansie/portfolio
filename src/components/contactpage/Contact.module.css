@@ -12,22 +12,24 @@
 }
 
 .Contact h1 {
-    font-family: Playfair Display;
     font-size: 100px;
     line-height: 110px;
     font-weight: 400;
-    margin: 75px 0 0 ;
+    margin: 75px 0 0;
 }
-.Contact hr{
+
+.Contact hr {
     margin: 25px 0 25px;
 }
 
 .Contact p {
     margin: 50px 0 25px;
 }
+
 .Contact textarea {
     width: 100%;
 }
+
 .Contact button {
     display: flex;
     align-items: center;
@@ -38,6 +40,4 @@
     width: 90px;
     padding: 10px 20px;
     margin: 25px 0 25px;
-   
-    
 }

@@ -1,4 +1,3 @@
-
 .jobInfo {
     display: flex;
     flex-direction: row;
@@ -14,7 +13,9 @@
     line-height: 1.3;
 }
 
-.jobInfo .leftSide h2, h3 , p {
+.jobInfo .leftSide h2,
+h3,
+p {
     margin: 1rem 0 0 1.5rem;
 }
 
@@ -28,7 +29,7 @@
     flex-direction: column;
     justify-content: center;
     width: 40%;
-    
+
 }
 
 .jobInfo .leftSide {
@@ -46,14 +47,15 @@
 
 .jobInfo .techAndInfo {
     line-height: 1rem;
-    margin: 1.5rem 0 0; 
+    margin: 1.5rem 0 0;
 }
 
 .techAndInfo p {
     margin: 0 0 1rem;
 }
 
-.challenges, .challenges p {
+.challenges,
+.challenges p {
     line-height: 1rem;
-    margin: 1.5rem 0 0 0; 
+    margin: 1.5rem 0 0 0;
 }

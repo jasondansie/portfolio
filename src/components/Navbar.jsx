@@ -1,8 +1,9 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
-import classes from './Navbar.module.css'
+import classes from './Navbar.module.css';
+import PropTypes from 'prop-types';
 
-const Navbar = ({imagePath, logoName}) => {
+const Navbar = ({ imagePath, logoName }) => {
 
     return (
         <div className={classes.navBar}>
@@ -19,5 +20,10 @@ const Navbar = ({imagePath, logoName}) => {
         </div>
     );
 };
+
+Navbar.propTypes = {
+    imagePath: PropTypes.string.isRequired,
+    logoName: PropTypes.string.isRequired
+}
 
 export default Navbar;

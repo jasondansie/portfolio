@@ -89,7 +89,7 @@ const Home = () => {
                 <h2>Projects</h2>
                 <div className={classes.projects}>
                     {
-                        projects.map((project, index) => {
+                        projects.map((project) => {
                             return (
                                 <ProjectCard key={project.title}
                                     porjectTitle={project.title}
