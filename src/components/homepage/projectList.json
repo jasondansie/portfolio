@@ -3,7 +3,7 @@
         "title": "Admin console",
         "imagePath": "../../images/extranet.png",
         "info": "This admin console uses Mysql, React, HTML,CSS, Node.js, Express and JWT and is based off an admin panel I made in PHP several years ago to log in use. user: jasondansien@gmail.com pass:Passwd123",
-        "livelink": "https://company-extranet.netlify.app ",
+        "livelink": "",
         "faIcon": "fa-brands fa-github fa-xl",
         "githublink": "https://github.com/jasondansie/react-intranet"
     },
@@ -11,7 +11,7 @@
         "title": "TasteIT",
         "imagePath": "../../images/tasetit.png",
         "info": "This is a recipe app where you can review and add recipes. it uses an api to get the country list and flags.",
-        "livelink": "https://tasteit-app.netlify.app/",
+        "livelink": "",
         "faIcon": "fa-brands fa-github fa-xl",
         "githublink": "https://github.com/jasondansie/react-tasteit"
     },
