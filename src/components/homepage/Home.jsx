@@ -96,6 +96,7 @@ const Home = () => {
                                     imagePath={project.imagePath}
                                     ProjectInfo={project.info}
                                     liveLink={project.livelink}
+                                    liveLinkName={project.liveLinkName}
                                     faIcon={project.faIcon}
                                     githubLink={project.githublink}
                                 />

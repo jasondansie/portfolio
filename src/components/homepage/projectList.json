@@ -4,6 +4,7 @@
         "imagePath": "../../images/extranet.png",
         "info": "This admin console uses Mysql, React, HTML,CSS, Node.js, Express and JWT and is based off an admin panel I made in PHP several years ago to log in use. user: jasondansien@gmail.com pass:Passwd123",
         "livelink": "",
+        "liveLinkName": "None",
         "faIcon": "fa-brands fa-github fa-xl",
         "githublink": "https://github.com/jasondansie/react-intranet"
     },
@@ -12,6 +13,7 @@
         "imagePath": "../../images/tasetit.png",
         "info": "This is a recipe app where you can review and add recipes. it uses an api to get the country list and flags.",
         "livelink": "",
+        "liveLinkName": "None",
         "faIcon": "fa-brands fa-github fa-xl",
         "githublink": "https://github.com/jasondansie/react-tasteit"
     },
@@ -20,6 +22,7 @@
         "imagePath": "../../images/speedgame.png",
         "info": "This is a simple speed game. you just click the cow when it appears, as time goes on it gets faster.",
         "livelink": "https://public.bc.fi/s2201195/speed_game/",
+        "liveLinkName": "Speed Game",
         "faIcon": "fa-brands fa-github fa-xl",
         "githublink": "https://github.com/jasondansie/react-speedgame"
     },
@@ -28,6 +31,7 @@
         "imagePath": "../../images/pokedex.png",
         "info": "This is an app to show the use of an api to build a list of all the pokemon in the pokedex",
         "livelink": "https://public.bc.fi/s2201195/pokedex/",
+        "liveLinkName": "Pokedex",
         "faIcon": "fa-brands fa-github fa-xl",
         "githublink": "https://github.com/jasondansie/react-pokelist-hooks"
     }

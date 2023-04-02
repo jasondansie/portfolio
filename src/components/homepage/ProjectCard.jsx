@@ -4,13 +4,13 @@ import SocialLink from '../SocialLink';
 import PropTypes from 'prop-types';
 
 
-const ProjectCard = ({ porjectTitle, ProjectInfo, imagePath, liveLink, githubLink, faIcon }) => {
+const ProjectCard = ({ porjectTitle, ProjectInfo, imagePath, liveLink, liveLinkName, githubLink, faIcon }) => {
     return (
         <div className={classes.ProjectCard}>
             <h3>{porjectTitle}</h3>
             <img src={imagePath} alt={porjectTitle} />
             <p>{ProjectInfo}</p>
-            <h5>Live Demo: <a href={liveLink} rel="noreferrer" target="_blank">{porjectTitle}</a></h5>
+            <h5>Live Demo: <a href={liveLink} rel="noreferrer" target="_blank">{liveLinkName}</a></h5>
             <div className={classes.githubInfo}>
                 <SocialLink
                     socialLink={githubLink}
